@@ -9,6 +9,7 @@
     BSD-style license that can be found in the LICENSE.txt file.
 */
 
+#include "pch.h"
 #include <sdlgui/popup.h>
 #include <sdlgui/theme.h>
 #include <thread>

@@ -10,6 +10,7 @@
     BSD-style license that can be found in the LICENSE.txt file.
 */
 
+#include "pch.h"
 #include <sdlgui/colorpicker.h>
 #include <sdlgui/layout.h>
 #include <sdlgui/colorwheel.h>

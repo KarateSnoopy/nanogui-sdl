@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\sdlgui\button.cpp" />
+    <ClCompile Include="..\sdlgui\checkbox.cpp" />
+    <ClCompile Include="..\sdlgui\colorpicker.cpp" />
+    <ClCompile Include="..\sdlgui\colorwheel.cpp" />
+    <ClCompile Include="..\sdlgui\combobox.cpp" />
+    <ClCompile Include="..\sdlgui\common.cpp" />
+    <ClCompile Include="..\sdlgui\dropdownbox.cpp" />
+    <ClCompile Include="..\sdlgui\graph.cpp" />
+    <ClCompile Include="..\sdlgui\imagepanel.cpp" />
+    <ClCompile Include="..\sdlgui\imageview.cpp" />
+    <ClCompile Include="..\sdlgui\label.cpp" />
+    <ClCompile Include="..\sdlgui\layout.cpp" />
+    <ClCompile Include="..\sdlgui\loadimages.cpp" />
+    <ClCompile Include="..\sdlgui\messagedialog.cpp" />
+    <ClCompile Include="..\sdlgui\nanovg.c" />
+    <ClCompile Include="..\sdlgui\popup.cpp" />
+    <ClCompile Include="..\sdlgui\popupbutton.cpp" />
+    <ClCompile Include="..\sdlgui\progressbar.cpp" />
+    <ClCompile Include="..\sdlgui\resources.cpp" />
+    <ClCompile Include="..\sdlgui\screen.cpp" />
+    <ClCompile Include="..\sdlgui\slider.cpp" />
+    <ClCompile Include="..\sdlgui\stackedwidget.cpp" />
+    <ClCompile Include="..\sdlgui\switchbox.cpp" />
+    <ClCompile Include="..\sdlgui\tabheader.cpp" />
+    <ClCompile Include="..\sdlgui\tabwidget.cpp" />
+    <ClCompile Include="..\sdlgui\textbox.cpp" />
+    <ClCompile Include="..\sdlgui\theme.cpp" />
+    <ClCompile Include="..\sdlgui\vscrollpanel.cpp" />
+    <ClCompile Include="..\sdlgui\widget.cpp" />
+    <ClCompile Include="..\sdlgui\window.cpp" />
+    <ClCompile Include="..\sdlgui\pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sdlgui\button.h" />
+    <ClInclude Include="..\sdlgui\checkbox.h" />
+    <ClInclude Include="..\sdlgui\colorpicker.h" />
+    <ClInclude Include="..\sdlgui\colorwheel.h" />
+    <ClInclude Include="..\sdlgui\combobox.h" />
+    <ClInclude Include="..\sdlgui\common.h" />
+    <ClInclude Include="..\sdlgui\dropdownbox.h" />
+    <ClInclude Include="..\sdlgui\entypo.h" />
+    <ClInclude Include="..\sdlgui\fontstash.h" />
+    <ClInclude Include="..\sdlgui\formhelper.h" />
+    <ClInclude Include="..\sdlgui\graph.h" />
+    <ClInclude Include="..\sdlgui\imagepanel.h" />
+    <ClInclude Include="..\sdlgui\imageview.h" />
+    <ClInclude Include="..\sdlgui\label.h" />
+    <ClInclude Include="..\sdlgui\layout.h" />
+    <ClInclude Include="..\sdlgui\messagedialog.h" />
+    <ClInclude Include="..\sdlgui\nanort.h" />
+    <ClInclude Include="..\sdlgui\nanovg.h" />
+    <ClInclude Include="..\sdlgui\nanovg_rt.h" />
+    <ClInclude Include="..\sdlgui\popup.h" />
+    <ClInclude Include="..\sdlgui\popupbutton.h" />
+    <ClInclude Include="..\sdlgui\progressbar.h" />
+    <ClInclude Include="..\sdlgui\resources.h" />
+    <ClInclude Include="..\sdlgui\screen.h" />
+    <ClInclude Include="..\sdlgui\sdlguii.h" />
+    <ClInclude Include="..\sdlgui\slider.h" />
+    <ClInclude Include="..\sdlgui\stackedwidget.h" />
+    <ClInclude Include="..\sdlgui\stb_image.h" />
+    <ClInclude Include="..\sdlgui\stb_truetype.h" />
+    <ClInclude Include="..\sdlgui\switchbox.h" />
+    <ClInclude Include="..\sdlgui\tabheader.h" />
+    <ClInclude Include="..\sdlgui\tabwidget.h" />
+    <ClInclude Include="..\sdlgui\textbox.h" />
+    <ClInclude Include="..\sdlgui\theme.h" />
+    <ClInclude Include="..\sdlgui\toolbutton.h" />
+    <ClInclude Include="..\sdlgui\vscrollpanel.h" />
+    <ClInclude Include="..\sdlgui\widget.h" />
+    <ClInclude Include="..\sdlgui\window.h" />
+    <ClInclude Include="..\sdlgui\pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\sdlgui\darwin.mm" />
+  </ItemGroup>
+</Project>

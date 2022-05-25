@@ -16,6 +16,9 @@
 // 3. This notice may not be removed or altered from any source distribution.
 //
 
+#define _CRT_SECURE_NO_WARNINGS
+#pragma warning( disable : 4244 4101 6011 26495 6053 26495 4267 26451 )
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

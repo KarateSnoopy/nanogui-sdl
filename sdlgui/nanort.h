@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 //
 // NanoRT, single header only modern ray tracing kernel.
 //

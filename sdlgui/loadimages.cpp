@@ -1,3 +1,4 @@
+#include "pch.h"
 #include <sdlgui/common.h>
 
 #if defined(_WIN32)

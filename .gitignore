@@ -1,3 +1,4 @@
 /.directory
 /build/*
 /SDL2*
+/nanogui-sdl/x64/Debug/*

@@ -11,6 +11,7 @@
     BSD-style license that can be found in the LICENSE.txt file.
 */
 
+#include "pch.h"
 #include <sdlgui/stackedwidget.h>
 
 NAMESPACE_BEGIN(sdlgui)

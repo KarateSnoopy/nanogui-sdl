@@ -8,6 +8,7 @@
     BSD-style license that can be found in the LICENSE.txt file.
 */
 
+#include "pch.h"
 #include <sdlgui/slider.h>
 #include <sdlgui/theme.h>
 #include <sdlgui/entypo.h>
