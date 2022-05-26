@@ -302,4 +302,11 @@ void Widget::draw(SDL_Renderer* renderer)
       child->draw(renderer);
 }
 
+void Widget::loadTex(SDL_Renderer* renderer)
+{
+    for (auto child : mChildren)
+        if (child->visible())
+            child->loadTex(renderer);
+}
+
 NAMESPACE_END(sdlgui)

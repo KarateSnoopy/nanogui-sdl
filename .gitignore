@@ -1,4 +1,6 @@
+*/.vs/**
 /.directory
 /build/*
 /SDL2*
 /nanogui-sdl/x64/Debug/*
+/nanogui-sdl/x64/Release/*

@@ -272,6 +272,24 @@ void Window::drawBody(SDL_Renderer* renderer)
   }
 }
 
+void Window::loadTex(SDL_Renderer* renderer)
+{
+    for (int i = 0; i < 2; i++)
+    {
+        bool mMouseFocusTemp = (i==0) ? true : false;
+        int id = (mMouseFocusTemp ? 0x1 : 0);
+        auto atx = std::find_if(_txs.begin(), _txs.end(), [id](AsyncTexturePtr p) { return p->id == id; });
+        if (atx == _txs.end())
+        {
+            AsyncTexturePtr newtx = std::make_shared<AsyncTexture>(id);
+            newtx->load(this, 0, 0, mMouseFocusTemp);
+            _txs.push_back(newtx);
+        }
+    }
+
+    Widget::loadTex(renderer);
+}
+
 void Window::draw(SDL_Renderer* renderer)
 {
   drawBody(renderer);

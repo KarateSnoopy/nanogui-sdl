@@ -279,6 +279,7 @@ public:
 
     /// Draw the widget (and all child widgets)
     virtual void draw(SDL_Renderer* renderer);
+    virtual void loadTex(SDL_Renderer* renderer);
 
     virtual int getAbsoluteLeft() const;
     virtual SDL_Point getAbsolutePos() const;

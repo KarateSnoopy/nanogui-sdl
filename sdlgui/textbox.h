@@ -17,6 +17,8 @@
 #include <sdlgui/widget.h>
 #include <memory>
 #include <sstream>
+#include <algorithm> 
+#include <limits>
 
 NAMESPACE_BEGIN(sdlgui)
 

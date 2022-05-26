@@ -60,6 +60,7 @@ public:
 
     /// Draw the window
     void draw(SDL_Renderer* surface) override;
+    void loadTex(SDL_Renderer* surface) override;    
     virtual void drawBody(SDL_Renderer* renderer);
     virtual void drawBodyTemp(SDL_Renderer* renderer);
 

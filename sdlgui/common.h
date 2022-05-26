@@ -32,7 +32,7 @@ struct NVGcolor;
 struct NVGcontext;
 
 #ifdef _MSC_VER
-#define SDLGUI_SNPRINTF _snprintf
+#define SDLGUI_SNPRINTF _snprintf_s
 #else
 /// Platform dependent snprintf (``_snprintf`` for MSVC, ``snprintf`` otherwise).
 #define SDLGUI_SNPRINTF snprintf
